@@ -8,28 +8,6 @@
     /* margin: 0 auto; */
 }
 
-nav ul .nav-item  {
-    position: relative;
-}
-
-nav ul .nav-item::after {
-    content: '';
-    position: absolute;
-    background-color: #ce1212;
-    width: 0%;
-    float: left;
-    height: 3px;
-    transition:  width 200ms ease;
-}
-
-nav ul .nav-item.active::after {
-    width: 100%;
-}
-
-nav ul .nav-item:hover::after {
-    width: 100%;
-}
-
 #about_card_bg {
     background-color: #ce1212;
 }
@@ -234,7 +212,7 @@ nav ul .nav-item:hover::after {
     box-shadow: 0 2px 4px #000;
 }
 
-#header_bg,
+#navbar-example2,
 .about_card_bg_mini,
 .color__menu {
     background-color: #fff;

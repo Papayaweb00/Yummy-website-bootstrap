@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="fixed-top" id="header_bg">
+    <header class="fixed-top" id="navbar-example2">
         <nav class="navbar navbar-expand-lg px-2 px-lg-5">
             <div class="navbar-brand">
                 <h1 id="titre_nav" class="menu_font_modif">Yummy <span class="text-danger">.</span></h1>
@@ -29,7 +29,7 @@
 
 
             <div class="collapse navbar-collapse " id="menunav">
-                <ul class="navbar-nav mx-3 mx-lg-auto" id="navi">
+                <ul class="navbar-nav nav-tabs mx-3 mx-lg-auto" id="navi">
                     <li class="nav-item active"><a href="#home" class="nav-link active">Home<br></a></li>
                     <li class="nav-item"><a href="#about" class="nav-link ">About</a></li>
                     <li class="nav-item"><a href="#menu" class="nav-link ">Menu</a></li>
@@ -73,676 +73,697 @@
 
         </nav>
     </header>
+    <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+        tabindex="0">
+        <section id="home">
+            <div class="container py-3">
+                <div
+                    class="row py-5 d-flex flex-column-reverse gap-5 gap-lg-0 flex-lg-row align-items-center justify-content-between">
+                    <div class="col-12 col-lg-5 ">
+                        <h1 class="home_title">
+                            Enjoy Your Healthy Delicious Food
+                        </h1>
+                        <h3 class="home_text text-secondary fs-5 py-3">
+                            We are team of talented designers making websites with Bootstrap
+                        </h3>
+                        <div class="d-flex align-items-center gap-3 flex-column flex-lg-row">
+                            <a class="btn btn-danger text-light rounded-5 pt-2 pb-3 fs-5 fw-bold px-5" href="#book">Book
+                                a
+                                Table</a>
 
-    <section id="home">
-        <div class="container py-3">
-            <div
-                class="row py-5 d-flex flex-column-reverse gap-5 gap-lg-0 flex-lg-row align-items-center justify-content-between">
-                <div class="col-12 col-lg-5 ">
-                    <h1 class="home_title">
-                        Enjoy Your Healthy Delicious Food
+                            <a href="#" alt="video"
+                                class="text-dark rounded-5 fw-bold px-3 text-decoration-none text-light d-flex align-items-center gap-2 "
+                                data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"><i
+                                    class="bi bi-play-circle fs-1 text-danger"></i> <span class="fs-5">Watch
+                                    Video</span></a>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <video
+                                                src="images/section2/video/BootstrapMade Template Builder Overview.mp4"
+                                                class="w-100" controls></video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-5 ">
+                        <img src="images/section1/image.png" alt="plat" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column align-items-center">
+                    <h5 class="text-secondary fs-5">ABOUT US</h5>
+                    <h1 class="about_title display-4 text-uppercase">
+                        Learn More <span class="text-danger">About Us</span>
                     </h1>
-                    <h3 class="home_text text-secondary fs-5 py-3">
-                        We are team of talented designers making websites with Bootstrap
-                    </h3>
-                    <div class="d-flex align-items-center gap-3 flex-column flex-lg-row">
-                        <a class="btn btn-danger text-light rounded-5 pt-2 pb-3 fs-5 fw-bold px-5" href="#book">Book a
-                            Table</a>
-
-                        <a href="#" alt="video"
-                            class="text-dark rounded-5 fw-bold px-3 text-decoration-none text-light d-flex align-items-center gap-2 "
-                            data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"><i
-                                class="bi bi-play-circle fs-1 text-danger"></i> <span class="fs-5">Watch
-                                Video</span></a>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Video</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <video src="images/section2/video/BootstrapMade Template Builder Overview.mp4"
-                                            class="w-100" controls></video>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg d-flex flex-column gap-3">
+                        <img src="images/section2/div1/image.png" alt="resto" class="img-fluid">
+                        <div class="border border-dark border-3 pt-4 d-flex flex-column align-items-center">
+                            <h3 class="fw-bold">Book a Table</h3>
+                            <p class="fw-bold text-danger fs-3">+1 5589 55488 55</p>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-12 col-lg-5 ">
-                    <img src="images/section1/image.png" alt="plat" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="about">
-        <div class="container d-flex flex-column align-items-center gap-3">
-            <div class="d-flex flex-column align-items-center">
-                <h5 class="text-secondary fs-5">ABOUT US</h5>
-                <h1 class="about_title display-4 text-uppercase">
-                    Learn More <span class="text-danger">About Us</span>
-                </h1>
-            </div>
-            <div class="row">
-                <div class="col-12 col-lg d-flex flex-column gap-3">
-                    <img src="images/section2/div1/image.png" alt="resto" class="img-fluid">
-                    <div class="border border-dark border-3 pt-4 d-flex flex-column align-items-center">
-                        <h3 class="fw-bold">Book a Table</h3>
-                        <p class="fw-bold text-danger fs-3">+1 5589 55488 55</p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-4 py-3 py-lg-0">
-                    <div class="col d-flex flex-column ms-0 ms-lg-3">
-                        <p class="text-secondary">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-                        <div>
-                            <p class="d-flex align-items-center gap-2 fs-5">
-                                <i class="bi bi-check-circle-fill text-success"></i>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                            <p class="d-flex align-items-center gap-2 fs-5">
-                                <i class="bi bi-check-circle-fill text-success"></i>
-                                Duis aute irure dolor in reprehenderit in voluptate velit.
-                            </p>
-                            <p class="d-flex align-items-start gap-2 fs-5">
-                                <i class="bi bi-check-circle-fill text-success"></i>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
-                                pariatur.
-                            </p>
-                        </div>
-                        <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                            occaecat cupidatat non proident
-                        </p>
-
-                        <video src="images/section2/video/BootstrapMade Template Builder Overview.mp4"
-                            poster="images/section2/div1/image copy.png" class="img-fluid rounded-3" controls>
-                            Votre navigateur n'est pas compatible
-                        </video>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid my-5">
-            <div class="row p-1 p-lg-5 d-flex flex-column flex-lg-row align-items-center gap-5 gap-lg-0"
-                id="about_row2">
-                <div class="col-12 col-lg-4">
-                    <div class="card  text-light px-3 py-3" id="about_card_bg">
-                        <div class="card-body d-flex flex-column align-items-start gap-3">
-                            <h1 class="card-title">Why Choose Yummy</h1>
-                            <p class="card-text">
+                    <div class="col-12 col-lg-4 py-3 py-lg-0">
+                        <div class="col d-flex flex-column ms-0 ms-lg-3">
+                            <p class="text-secondary">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus
-                                optio ad corporis.
+                                incididunt ut
+                                labore et dolore magna aliqua.
                             </p>
-                            <a href="#" class="btn btn-light w-100 rounded-5"><span>Learn More</span> <i
-                                    class="bi bi-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg">
-                    <div class="card  text-light px-3 py-5 about_card_bg_mini">
-                        <div class="card-body d-flex flex-column align-items-center gap-3">
-                            <div id="icons">
-                                <i class="bi bi-clipboard-data fs-1"></i>
-                            </div>
-                            <h5 class="card-title text-center py-2 text-dark">Corporis voluptates officia eiusmod</h5>
-                            <p class="card-text text-dark text-center pt-1">
-                                Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg">
-                    <div class="card  text-light px-3 py-5 about_card_bg_mini">
-                        <div class="card-body d-flex flex-column align-items-center gap-3">
-                            <div id="icons" class="menu_font_modif">
-                                <i class="bi bi-gem fs-1"></i>
-                            </div>
-                            <h5 class="card-title text-center text-dark py-3">Ullamco laboris ladore lore pan</h5>
-                            <p class="card-text text-dark text-center py-1">
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg">
-                    <div class="card  text-light px-3 py-5 about_card_bg_mini">
-                        <div class="card-body d-flex flex-column align-items-center gap-3">
-                            <div id="icons">
-                                <i class="bi bi-inbox fs-1"></i>
-                            </div>
-                            <h5 class="card-title text-center text-dark py-2">Labore consequatur incidid dolore</h5>
-                            <p class="card-text text-dark text-center">
-                                Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row d-flex flex-column flex-lg-row align-items-center text-center image_bg">
-                <div class="col ">
-                    <h3 class="fw-bold display-4 text-light">232</h3>
-                    <p class="color_about">Clients</p>
-                </div>
-
-                <div class="col">
-                    <h3 class="fw-bold display-4 text-light">521</h3>
-                    <p class="color_about">Projects</p>
-                </div>
-
-                <div class="col ">
-                    <h3 class="fw-bold display-4 text-light">1453</h3>
-                    <p class="color_about">Hours Of Support</p>
-                </div>
-
-                <div class="col">
-                    <h3 class="fw-bold display-4 text-light">32</h3>
-                    <p class="color_about">Workers</p>
-                </div>
-            </div>
-    </section>
-    <section id="menu">
-        <div class="container d-flex flex-column align-items-center gap-3">
-            <div class="d-flex flex-column align-items-center">
-                <h5 class="text-secondary fs-5 text-uppercase">Our Menu</h5>
-                <h1 class="about_title display-4 text-uppercase">
-                    Check Our <span class="text-danger">Yummy Menu</span>
-                </h1>
-            </div>
-
-            <ul class="navbar-nav flex-row gap-3 align-items-center justify-content-center" id="menu_ul">
-                <li class="nav-item d-flex flex-column align-items-center list_menu">
-                    <a href="#" class="nav-link">Starters</a>
-                    <span class="tracer_red tracer_red1"></span>
-                </li>
-                <li class="nav-item d-flex flex-column align-items-center list_menu">
-                    <a href="#" class="nav-link">Breakfast</a>
-                    <span class="tracer_red tracer_red2"></span>
-                </li>
-                <li class="nav-item d-flex flex-column align-items-center list_menu">
-                    <a href="#" class="nav-link">Lunch</a>
-                    <span class="tracer_red tracer_red3"></span>
-                </li>
-                <li class="nav-item d-flex flex-column align-items-center list_menu">
-                    <a href="#" class="nav-link">Dinner</a>
-                    <span class="tracer_red tracer_red4"></span>
-                </li>
-            </ul>
-
-            <div class="d-flex flex-column align-items-center ">
-                <h5 class="text-secondary fs-6 text-uppercase">Menu</h5>
-                <h1 class="about_title display-7 text-uppercase">
-                    <span class="text-danger">Yummy Menu</span>
-                </h1>
-            </div>
-
-            <div class="row py-5 d-flex align-items-center justify-content-around gap-5 gap-lg-0">
-                <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
-                    <img src="images/section1/image.png" alt="menu" class="w-100">
-                    <div class="d-flex flex-column align-items-center">
-                        <h5 class="menu_font_modif1">Magnam Tiste</h5>
-                        <p class="">Lorem, deren, trataro, filede, nerada</p>
-                        <h3 class="menu_titre fw-bold">$5.95</h3>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
-                    <img src="images/section3/image.png" alt="menu" class="w-100">
-                    <div class="d-flex flex-column align-items-center">
-                        <h5 class="menu_font_modif1">Aut Luia</h5>
-                        <p class="">Lorem, deren, trataro, filede, nerada</p>
-                        <h3 class="menu_titre fw-bold">$14.95</h3>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
-                    <img src="images/section3/image copy.png" alt="menu" class="w-100">
-                    <div class="d-flex flex-column align-items-center">
-                        <h5 class="menu_font_modif1">Est Eligendi</h5>
-                        <p class="">Lorem, deren, trataro, filede, nerada</p>
-                        <h3 class="menu_titre fw-bold">$8.95</h3>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row py-5 d-flex align-items-center justify-content-around gap-5 gap-lg-0">
-                <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
-                    <img src="images/section3/image copy 2.png" alt="menu" class="w-100">
-                    <div class="d-flex flex-column align-items-center">
-                        <h5 class="menu_font_modif1">Magnam Tiste</h5>
-                        <p class="">Lorem, deren, trataro, filede, nerada</p>
-                        <h3 class="menu_titre fw-bold">$5.95</h3>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
-                    <img src="images/section3/image copy 3.png" alt="menu" class="w-100">
-                    <div class="d-flex flex-column align-items-center">
-                        <h5 class="menu_font_modif1">Aut Luia</h5>
-                        <p class="">Lorem, deren, trataro, filede, nerada</p>
-                        <h3 class="menu_titre fw-bold">$14.95</h3>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
-                    <img src="images/section3/image copy 4.png" alt="menu" class="w-100">
-                    <div class="d-flex flex-column align-items-center">
-                        <h5 class="menu_font_modif1">Est Eligendi</h5>
-                        <p class="">Lorem, deren, trataro, filede, nerada</p>
-                        <h3 class="menu_titre fw-bold">$8.95</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid menu_row pt-5 px-0">
-            <div class="d-flex flex-column align-items-center py-5">
-                <h5 class="text-secondary fs-6 text-uppercase">Our Menu</h5>
-                <h1 class="about_title display-4 text-uppercase">
-                    What Are They <span class="text-danger">Saying About Us</span>
-                </h1>
-            </div>
-
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item text-center user-select-none active" data-bs-interval="10000">
-                        <div class="row d-flex gap-5 gap-lg-0 align-items-center justify-content-center py-5">
-                            <div class="col-11 col-lg-6 menu_left_bor d-flex flex-column align-items-start">
-                                <p class="">
-                                    <i class="bi bi-quote quote-icon-left menu_titre fs-3"></i>
-                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
-                                        suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
-                                        Maecen aliquam, risus at semper.</span>
-                                    <i class="bi bi-quote quote-icon-right menu_titre fs-3"></i>
+                            <div>
+                                <p class="d-flex align-items-center gap-2 fs-5">
+                                    <i class="bi bi-check-circle-fill text-success"></i>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                 </p>
-                                <h3 class="fs-4 menu_h3">Saul Goodman</h3>
-                                <h4 class="fs-5 text-secondary">Ceo &amp; Founder</h4>
-                                <div class="text-warning">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
+                                <p class="d-flex align-items-center gap-2 fs-5">
+                                    <i class="bi bi-check-circle-fill text-success"></i>
+                                    Duis aute irure dolor in reprehenderit in voluptate velit.
+                                </p>
+                                <p class="d-flex align-items-start gap-2 fs-5">
+                                    <i class="bi bi-check-circle-fill text-success"></i>
+                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                                    pariatur.
+                                </p>
+                            </div>
+                            <p>
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                sint
+                                occaecat cupidatat non proident
+                            </p>
+
+                            <video src="images/section2/video/BootstrapMade Template Builder Overview.mp4"
+                                poster="images/section2/div1/image copy.png" class="img-fluid rounded-3" controls>
+                                Votre navigateur n'est pas compatible
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid my-5">
+                <div class="row p-1 p-lg-5 d-flex flex-column flex-lg-row align-items-center gap-5 gap-lg-0"
+                    id="about_row2">
+                    <div class="col-12 col-lg-4">
+                        <div class="card  text-light px-3 py-3" id="about_card_bg">
+                            <div class="card-body d-flex flex-column align-items-start gap-3">
+                                <h1 class="card-title">Why Choose Yummy</h1>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                                    Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel
+                                    necessitatibus
+                                    optio ad corporis.
+                                </p>
+                                <a href="#" class="btn btn-light w-100 rounded-5"><span>Learn More</span> <i
+                                        class="bi bi-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <div class="card  text-light px-3 py-5 about_card_bg_mini">
+                            <div class="card-body d-flex flex-column align-items-center gap-3">
+                                <div id="icons">
+                                    <i class="bi bi-clipboard-data fs-1"></i>
+                                </div>
+                                <h5 class="card-title text-center py-2 text-dark">Corporis voluptates officia eiusmod
+                                </h5>
+                                <p class="card-text text-dark text-center pt-1">
+                                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <div class="card  text-light px-3 py-5 about_card_bg_mini">
+                            <div class="card-body d-flex flex-column align-items-center gap-3">
+                                <div id="icons" class="menu_font_modif">
+                                    <i class="bi bi-gem fs-1"></i>
+                                </div>
+                                <h5 class="card-title text-center text-dark py-3">Ullamco laboris ladore lore pan</h5>
+                                <p class="card-text text-dark text-center py-1">
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg">
+                        <div class="card  text-light px-3 py-5 about_card_bg_mini">
+                            <div class="card-body d-flex flex-column align-items-center gap-3">
+                                <div id="icons">
+                                    <i class="bi bi-inbox fs-1"></i>
+                                </div>
+                                <h5 class="card-title text-center text-dark py-2">Labore consequatur incidid dolore</h5>
+                                <p class="card-text text-dark text-center">
+                                    Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row d-flex flex-column flex-lg-row align-items-center text-center image_bg">
+                    <div class="col ">
+                        <h3 class="fw-bold display-4 text-light">232</h3>
+                        <p class="color_about">Clients</p>
+                    </div>
+
+                    <div class="col">
+                        <h3 class="fw-bold display-4 text-light">521</h3>
+                        <p class="color_about">Projects</p>
+                    </div>
+
+                    <div class="col ">
+                        <h3 class="fw-bold display-4 text-light">1453</h3>
+                        <p class="color_about">Hours Of Support</p>
+                    </div>
+
+                    <div class="col">
+                        <h3 class="fw-bold display-4 text-light">32</h3>
+                        <p class="color_about">Workers</p>
+                    </div>
+                </div>
+        </section>
+        <section id="menu">
+            <div class="container d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column align-items-center">
+                    <h5 class="text-secondary fs-5 text-uppercase">Our Menu</h5>
+                    <h1 class="about_title display-4 text-uppercase">
+                        Check Our <span class="text-danger">Yummy Menu</span>
+                    </h1>
+                </div>
+
+                <ul class="navbar-nav flex-row gap-3 align-items-center justify-content-center" id="menu_ul">
+                    <li class="nav-item d-flex flex-column align-items-center list_menu">
+                        <a href="#" class="nav-link">Starters</a>
+                        <span class="tracer_red tracer_red1"></span>
+                    </li>
+                    <li class="nav-item d-flex flex-column align-items-center list_menu">
+                        <a href="#" class="nav-link">Breakfast</a>
+                        <span class="tracer_red tracer_red2"></span>
+                    </li>
+                    <li class="nav-item d-flex flex-column align-items-center list_menu">
+                        <a href="#" class="nav-link">Lunch</a>
+                        <span class="tracer_red tracer_red3"></span>
+                    </li>
+                    <li class="nav-item d-flex flex-column align-items-center list_menu">
+                        <a href="#" class="nav-link">Dinner</a>
+                        <span class="tracer_red tracer_red4"></span>
+                    </li>
+                </ul>
+
+                <div class="d-flex flex-column align-items-center ">
+                    <h5 class="text-secondary fs-6 text-uppercase">Menu</h5>
+                    <h1 class="about_title display-7 text-uppercase">
+                        <span class="text-danger">Yummy Menu</span>
+                    </h1>
+                </div>
+
+                <div class="row py-5 d-flex align-items-center justify-content-around gap-5 gap-lg-0">
+                    <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
+                        <img src="images/section1/image.png" alt="menu" class="w-100">
+                        <div class="d-flex flex-column align-items-center">
+                            <h5 class="menu_font_modif1">Magnam Tiste</h5>
+                            <p class="">Lorem, deren, trataro, filede, nerada</p>
+                            <h3 class="menu_titre fw-bold">$5.95</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
+                        <img src="images/section3/image.png" alt="menu" class="w-100">
+                        <div class="d-flex flex-column align-items-center">
+                            <h5 class="menu_font_modif1">Aut Luia</h5>
+                            <p class="">Lorem, deren, trataro, filede, nerada</p>
+                            <h3 class="menu_titre fw-bold">$14.95</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
+                        <img src="images/section3/image copy.png" alt="menu" class="w-100">
+                        <div class="d-flex flex-column align-items-center">
+                            <h5 class="menu_font_modif1">Est Eligendi</h5>
+                            <p class="">Lorem, deren, trataro, filede, nerada</p>
+                            <h3 class="menu_titre fw-bold">$8.95</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-5 d-flex align-items-center justify-content-around gap-5 gap-lg-0">
+                    <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
+                        <img src="images/section3/image copy 2.png" alt="menu" class="w-100">
+                        <div class="d-flex flex-column align-items-center">
+                            <h5 class="menu_font_modif1">Magnam Tiste</h5>
+                            <p class="">Lorem, deren, trataro, filede, nerada</p>
+                            <h3 class="menu_titre fw-bold">$5.95</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
+                        <img src="images/section3/image copy 3.png" alt="menu" class="w-100">
+                        <div class="d-flex flex-column align-items-center">
+                            <h5 class="menu_font_modif1">Aut Luia</h5>
+                            <p class="">Lorem, deren, trataro, filede, nerada</p>
+                            <h3 class="menu_titre fw-bold">$14.95</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 d-flex flex-column align-items-center gap-3">
+                        <img src="images/section3/image copy 4.png" alt="menu" class="w-100">
+                        <div class="d-flex flex-column align-items-center">
+                            <h5 class="menu_font_modif1">Est Eligendi</h5>
+                            <p class="">Lorem, deren, trataro, filede, nerada</p>
+                            <h3 class="menu_titre fw-bold">$8.95</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid menu_row pt-5 px-0">
+                <div class="d-flex flex-column align-items-center py-5">
+                    <h5 class="text-secondary fs-6 text-uppercase">Our Menu</h5>
+                    <h1 class="about_title display-4 text-uppercase">
+                        What Are They <span class="text-danger">Saying About Us</span>
+                    </h1>
+                </div>
+
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item text-center user-select-none active" data-bs-interval="10000">
+                            <div class="row d-flex gap-5 gap-lg-0 align-items-center justify-content-center py-5">
+                                <div class="col-11 col-lg-6 menu_left_bor d-flex flex-column align-items-start">
+                                    <p class="">
+                                        <i class="bi bi-quote quote-icon-left menu_titre fs-3"></i>
+                                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                                            suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
+                                            Maecen aliquam, risus at semper.</span>
+                                        <i class="bi bi-quote quote-icon-right menu_titre fs-3"></i>
+                                    </p>
+                                    <h3 class="fs-4 menu_h3">Saul Goodman</h3>
+                                    <h4 class="fs-5 text-secondary">Ceo &amp; Founder</h4>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-11 mx-auto mx-md-0 col-lg-3">
+                                    <img src="images/section4/name (1).jpg" alt="personne" class="personne_menu">
                                 </div>
                             </div>
-
-                            <div class="col-11 mx-auto mx-md-0 col-lg-3">
-                                <img src="images/section4/name (1).jpg" alt="personne" class="personne_menu">
-                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item text-center user-select-none" data-bs-interval="2000">
-                        <div class="row d-flex gap-5 gap-lg-0 align-items-center justify-content-center py-5">
-                            <div class="col-11 col-lg-6 menu_left_bor d-flex flex-column align-items-start">
-                                <p class="">
-                                    <i class="bi bi-quote quote-icon-left menu_titre fs-3"></i>
-                                    <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum
-                                        quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat
-                                        irure amet legam anim culpa.</span>
-                                    <i class="bi bi-quote quote-icon-right menu_titre fs-3"></i>
-                                </p>
-                                <h3 class="fs-4 menu_h3">Sara Wilsson</h3>
-                                <h4 class="fs-5 text-secondary">Designer</h4>
-                                <div class="text-warning">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
+                        <div class="carousel-item text-center user-select-none" data-bs-interval="2000">
+                            <div class="row d-flex gap-5 gap-lg-0 align-items-center justify-content-center py-5">
+                                <div class="col-11 col-lg-6 menu_left_bor d-flex flex-column align-items-start">
+                                    <p class="">
+                                        <i class="bi bi-quote quote-icon-left menu_titre fs-3"></i>
+                                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem
+                                            cillum
+                                            quid cillum eram malis quorum velit fore eram velit sunt aliqua noster
+                                            fugiat
+                                            irure amet legam anim culpa.</span>
+                                        <i class="bi bi-quote quote-icon-right menu_titre fs-3"></i>
+                                    </p>
+                                    <h3 class="fs-4 menu_h3">Sara Wilsson</h3>
+                                    <h4 class="fs-5 text-secondary">Designer</h4>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-11 mx-auto mx-md-0 col-lg-3">
+                                    <img src="images/section4/name (2).jpg" alt="personne" class="personne_menu">
                                 </div>
                             </div>
-
-                            <div class="col-11 mx-auto mx-md-0 col-lg-3">
-                                <img src="images/section4/name (2).jpg" alt="personne" class="personne_menu">
-                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item text-center user-select-none">
-                        <div class="row d-flex gap-5 gap-lg-0 align-items-center justify-content-center py-5">
-                            <div class="col-11 col-lg-6 menu_left_bor d-flex flex-column align-items-start">
-                                <p class="">
-                                    <i class="bi bi-quote quote-icon-left menu_titre fs-3"></i>
-                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
-                                        suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
-                                        Maecen aliquam, risus at semper.</span>
-                                    <i class="bi bi-quote quote-icon-right menu_titre fs-3"></i>
-                                </p>
-                                <h3 class="fs-4 menu_h3">Jena Karlis</h3>
-                                <h4 class="fs-5 text-secondary">Store Owner</h4>
-                                <div class="text-warning">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
+                        <div class="carousel-item text-center user-select-none">
+                            <div class="row d-flex gap-5 gap-lg-0 align-items-center justify-content-center py-5">
+                                <div class="col-11 col-lg-6 menu_left_bor d-flex flex-column align-items-start">
+                                    <p class="">
+                                        <i class="bi bi-quote quote-icon-left menu_titre fs-3"></i>
+                                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                                            suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
+                                            Maecen aliquam, risus at semper.</span>
+                                        <i class="bi bi-quote quote-icon-right menu_titre fs-3"></i>
+                                    </p>
+                                    <h3 class="fs-4 menu_h3">Jena Karlis</h3>
+                                    <h4 class="fs-5 text-secondary">Store Owner</h4>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-11 mx-auto mx-md-0 col-lg-3">
+                                    <img src="images/section4/name (3).jpg" alt="personne" class="personne_menu">
                                 </div>
                             </div>
-
-                            <div class="col-11 mx-auto mx-md-0 col-lg-3">
-                                <img src="images/section4/name (3).jpg" alt="personne" class="personne_menu">
-                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item text-center user-select-none">
-                        <div class="row d-flex gap-5 gap-lg-0 align-items-center justify-content-center py-5">
-                            <div class="col-11 col-lg-6 menu_left_bor d-flex flex-column align-items-start">
-                                <p class="">
-                                    <i class="bi bi-quote quote-icon-left menu_titre fs-3"></i>
-                                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
-                                        suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
-                                        Maecen aliquam, risus at semper.</span>
-                                    <i class="bi bi-quote quote-icon-right menu_titre fs-3"></i>
-                                </p>
-                                <h3 class="fs-4 menu_h3">Matt Brandon</h3>
-                                <h4 class="fs-5 text-secondary">Freelancer</h4>
-                                <div class="text-warning">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
+                        <div class="carousel-item text-center user-select-none">
+                            <div class="row d-flex gap-5 gap-lg-0 align-items-center justify-content-center py-5">
+                                <div class="col-11 col-lg-6 menu_left_bor d-flex flex-column align-items-start">
+                                    <p class="">
+                                        <i class="bi bi-quote quote-icon-left menu_titre fs-3"></i>
+                                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                                            suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
+                                            Maecen aliquam, risus at semper.</span>
+                                        <i class="bi bi-quote quote-icon-right menu_titre fs-3"></i>
+                                    </p>
+                                    <h3 class="fs-4 menu_h3">Matt Brandon</h3>
+                                    <h4 class="fs-5 text-secondary">Freelancer</h4>
+                                    <div class="text-warning">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                            class="bi bi-star-fill"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-11 mx-auto mx-md-0 col-lg-3">
+                                    <img src="images/section4/name (4).jpg" alt="personne" class="personne_menu">
                                 </div>
                             </div>
-
-                            <div class="col-11 mx-auto mx-md-0 col-lg-3">
-                                <img src="images/section4/name (4).jpg" alt="personne" class="personne_menu">
-                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2" class="bg-secondary"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3" class="bg-secondary"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 4" class="bg-secondary"></button>
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-
-            <div class="color__menu py-5" id="events">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active bg-danger rad_menu py-1 px-0" aria-current="true"
-                            aria-label="Slide 1"></button>
+                            class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2" class="bg-danger rad_menu py-1 px-0"></button>
+                            aria-label="Slide 2" class="bg-secondary"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3" class="bg-danger rad_menu py-1 px-0"></button>
+                            aria-label="Slide 3" class="bg-secondary"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                            aria-label="Slide 4" class="bg-danger rad_menu py-1 px-0"></button>
-                        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                            aria-label="Slide 5" class="bg-danger rad_menu py-1 px-0 d-block d-lg-none"></button> -->
+                            aria-label="Slide 4" class="bg-secondary"></button>
                     </div>
-                    <div class="carousel-inner pb-5">
-                        <div class="carousel-item active">
-                            <div class="card text-light card_bg1 d-block d-lg-none">
-                                <div class="card-body" id="body_card">
-                                    <h5 class="card-title">Wedding Parties</h5>
-                                    <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                        numquam
-                                        praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                        itaque
-                                        laboriosam distinctio modi quaerat cumque dolore non eius!
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row g-1 d-none d-lg-flex">
-                                <div class="col-4">
-                                    <div class="card text-light card_bg1">
-                                        <div class="card-body" id="body_card">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="card text-light card_bg2">
-                                        <div class="card-body" id="body_card2">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="card text-light card_bg3">
-                                        <div class="card-body" id="body_card3">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="color__menu py-5" id="events">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active bg-danger rad_menu py-1 px-0" aria-current="true"
+                                aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2" class="bg-danger rad_menu py-1 px-0"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3" class="bg-danger rad_menu py-1 px-0"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4" class="bg-danger rad_menu py-1 px-0"></button>
+                            <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5" class="bg-danger rad_menu py-1 px-0 d-block d-lg-none"></button> -->
                         </div>
-                        <div class="carousel-item">
-                            <div class="card text-light d-block d-lg-none card_bg2">
-                                <div class="card-body" id="body_card2">
-                                    <h5 class="card-title">Wedding Parties</h5>
-                                    <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                        numquam
-                                        praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                        itaque
-                                        laboriosam distinctio modi quaerat cumque dolore non eius!
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row g-1 d-none d-lg-flex">
-                                <div class="col-4">
-                                    <div class="card text-light card_bg2">
-                                        <div class="card-body" id="body_card">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
-                                        </div>
+                        <div class="carousel-inner pb-5">
+                            <div class="carousel-item active">
+                                <div class="card text-light card_bg1 d-block d-lg-none">
+                                    <div class="card-body" id="body_card">
+                                        <h5 class="card-title">Wedding Parties</h5>
+                                        <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                            numquam
+                                            praesentium qui provident animi possimus illo ab officia aliquam dolor,
+                                            itaque
+                                            laboriosam distinctio modi quaerat cumque dolore non eius!
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="col-4">
-                                    <div class="card text-light card_bg3">
-                                        <div class="card-body" id="body_card2">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
+                                <div class="row g-1 d-none d-lg-flex">
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg1">
+                                            <div class="card-body" id="body_card">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="card text-light card_bg4">
-                                        <div class="card-body" id="body_card3">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg2">
+                                            <div class="card-body" id="body_card2">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card text-light card_bg3 d-block d-lg-none">
-                                <div class="card-body" id="body_card3">
-                                    <h5 class="card-title">Wedding Parties</h5>
-                                    <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                        numquam
-                                        praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                        itaque
-                                        laboriosam distinctio modi quaerat cumque dolore non eius!
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="row g-1 d-none d-lg-flex">
-                                <div class="col-4">
-                                    <div class="card text-light card_bg3">
-                                        <div class="card-body" id="body_card">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="card text-light card_bg4">
-                                        <div class="card-body" id="body_card2">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="card text-light card_bg5">
-                                        <div class="card-body" id="body_card5">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg3">
+                                            <div class="card-body" id="body_card3">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="card text-light card_bg4 d-block d-lg-none">
-                                <div class="card-body" id="body_card4">
-                                    <h5 class="card-title">Wedding Parties</h5>
-                                    <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                        numquam
-                                        praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                        itaque
-                                        laboriosam distinctio modi quaerat cumque dolore non eius!
-                                    </p>
+                            <div class="carousel-item">
+                                <div class="card text-light d-block d-lg-none card_bg2">
+                                    <div class="card-body" id="body_card2">
+                                        <h5 class="card-title">Wedding Parties</h5>
+                                        <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                            numquam
+                                            praesentium qui provident animi possimus illo ab officia aliquam dolor,
+                                            itaque
+                                            laboriosam distinctio modi quaerat cumque dolore non eius!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row g-1 d-none d-lg-flex">
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg2">
+                                            <div class="card-body" id="body_card">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg3">
+                                            <div class="card-body" id="body_card2">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg4">
+                                            <div class="card-body" id="body_card3">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row g-1 d-none d-lg-flex">
-                                <div class="col-4">
-                                    <div class="card text-light card_bg4">
-                                        <div class="card-body" id="body_card">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
-                                        </div>
+                            <div class="carousel-item">
+                                <div class="card text-light card_bg3 d-block d-lg-none">
+                                    <div class="card-body" id="body_card3">
+                                        <h5 class="card-title">Wedding Parties</h5>
+                                        <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                            numquam
+                                            praesentium qui provident animi possimus illo ab officia aliquam dolor,
+                                            itaque
+                                            laboriosam distinctio modi quaerat cumque dolore non eius!
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="col-4">
-                                    <div class="card text-light card_bg5">
-                                        <div class="card-body" id="body_card5">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
+                                <div class="row g-1 d-none d-lg-flex">
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg3">
+                                            <div class="card-body" id="body_card">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-4">
-                                    <div class="card text-light card_bg1">
-                                        <div class="card-body" id="body_card3">
-                                            <h5 class="card-title">Wedding Parties</h5>
-                                            <h2 class="titre_2 fw-bold price_menu">$899</h2>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
-                                                numquam
-                                                praesentium qui provident animi possimus illo ab officia aliquam dolor,
-                                                itaque
-                                                laboriosam distinctio modi quaerat cumque dolore non eius!
-                                            </p>
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg4">
+                                            <div class="card-body" id="body_card2">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg5">
+                                            <div class="card-body" id="body_card5">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- <div class="carousel-item">
+                            <div class="carousel-item">
+                                <div class="card text-light card_bg4 d-block d-lg-none">
+                                    <div class="card-body" id="body_card4">
+                                        <h5 class="card-title">Wedding Parties</h5>
+                                        <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                            numquam
+                                            praesentium qui provident animi possimus illo ab officia aliquam dolor,
+                                            itaque
+                                            laboriosam distinctio modi quaerat cumque dolore non eius!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row g-1 d-none d-lg-flex">
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg4">
+                                            <div class="card-body" id="body_card">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg5">
+                                            <div class="card-body" id="body_card5">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card text-light card_bg1">
+                                            <div class="card-body" id="body_card3">
+                                                <h5 class="card-title">Wedding Parties</h5>
+                                                <h2 class="titre_2 fw-bold price_menu">$899</h2>
+                                                <p class="card-text">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis ex
+                                                    numquam
+                                                    praesentium qui provident animi possimus illo ab officia aliquam
+                                                    dolor,
+                                                    itaque
+                                                    laboriosam distinctio modi quaerat cumque dolore non eius!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="carousel-item">
                             <div class="card text-light card_bg5 ">
                                 <div class="card-body" id="body_card5">
                                     <h5 class="card-title">Wedding Parties</h5>
@@ -757,562 +778,569 @@
                                 </div>
                             </div>
                         </div> -->
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="chefs" class="py-5">
-        <div class="container d-flex flex-column align-items-center gap-3">
-            <div class="d-flex flex-column align-items-center">
-                <h5 class="text-secondary fs-5 text-uppercase">chefs</h5>
-                <h1 class="about_title display-4 text-uppercase">
-                    Our <span class="text-danger">Proffesional Chefs</span>
-                </h1>
-            </div>
-
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-12 col-md-9 mx-auto mx-lg-none col-lg-4">
-                        <div class="card chef_card">
-                            <img src="images/section6/div1/image.png" alt="chef" class="card-img-rop">
-                            <div class="card-body text-center chef_card_body">
-                                <h3 class="card-title">Walter White</h3>
-                                <h5 class="card-subtitle text-secondary fs-6 py-3">Master Chef</h5>
-                                <p class="card-text pb-3">
-                                    Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut.
-                                    Ipsum exercitationem iure minima enim corporis et voluptate.
-                                </p>
-                            </div>
-                            <div class="social p-3">
-                                <a href="#"><i class="bi bi-twitter-x fs-4"></i></a>
-                                <a href="#"><i class="bi bi-facebook fs-4"></i></a>
-                                <a href="#"><i class="bi bi-instagram fs-4"></i></a>
-                                <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
-                            </div>
                         </div>
-                    </div>
-                    <div class="col-12 col-md-9 mx-auto mx-lg-none col-lg-4 py-5 py-lg-0">
-                        <div class="card chef_card">
-                            <img src="images/section6/div3/image.png" alt="chef" class="card-img-rop">
-                            <div class="card-body text-center chef_card_body">
-                                <h3 class="card-title">Sarah Jhonson</h3>
-                                <h5 class="card-subtitle text-secondary fs-6 py-3">Patissier</h5>
-                                <p class="card-text pb-3">
-                                    Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima
-                                    suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.
-                                </p>
-                            </div>
-                            <div class="social p-3">
-                                <a href="#"><i class="bi bi-twitter-x fs-4"></i></a>
-                                <a href="#"><i class="bi bi-facebook fs-4"></i></a>
-                                <a href="#"><i class="bi bi-instagram fs-4"></i></a>
-                                <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-9 mx-auto mx-lg-none col-lg-4">
-                        <div class="card chef_card">
-                            <img src="images/section6/div2/image.png" alt="chef" class="card-img-rop">
-                            <div class="card-body text-center chef_card_body">
-                                <h3 class="card-title">William Anderson</h3>
-                                <h5 class="card-subtitle text-secondary fs-6 py-3">Cook</h5>
-                                <p class="card-text pb-3">
-                                    Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt.
-                                    Voluptates enim aut architecto porro aspernatur molestiae modi
-                                </p>
-                            </div>
-                            <div class="social p-3">
-                                <a href="#"><i class="bi bi-twitter-x fs-4"></i></a>
-                                <a href="#"><i class="bi bi-facebook fs-4"></i></a>
-                                <a href="#"><i class="bi bi-instagram fs-4"></i></a>
-                                <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
-                            </div>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="py-5" id="book">
-        <div class="container d-flex flex-column align-items-center gap-3">
-            <div class="d-flex flex-column align-items-center">
-                <h5 class="text-secondary fs-5 text-uppercase">Book A Table</h5>
-                <h1 class="about_title display-4 text-uppercase">
-                    Book Your <span class="text-danger">Stay With Us</span>
-                </h1>
-            </div>
+        </section>
+        <section id="chefs" class="py-5">
+            <div class="container d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column align-items-center">
+                    <h5 class="text-secondary fs-5 text-uppercase">chefs</h5>
+                    <h1 class="about_title display-4 text-uppercase">
+                        Our <span class="text-danger">Proffesional Chefs</span>
+                    </h1>
+                </div>
 
-            <div class="container">
-                <div class="row book_bg">
-                    <div class="col-12 col-lg-4 p-0">
-                        <img src="images/section7/image.png" alt="decor" class="w-100">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-12 col-md-9 mx-auto mx-lg-none col-lg-4">
+                            <div class="card chef_card">
+                                <img src="images/section6/div1/image.png" alt="chef" class="card-img-rop">
+                                <div class="card-body text-center chef_card_body">
+                                    <h3 class="card-title">Walter White</h3>
+                                    <h5 class="card-subtitle text-secondary fs-6 py-3">Master Chef</h5>
+                                    <p class="card-text pb-3">
+                                        Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae
+                                        aut.
+                                        Ipsum exercitationem iure minima enim corporis et voluptate.
+                                    </p>
+                                </div>
+                                <div class="social p-3">
+                                    <a href="#"><i class="bi bi-twitter-x fs-4"></i></a>
+                                    <a href="#"><i class="bi bi-facebook fs-4"></i></a>
+                                    <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+                                    <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-9 mx-auto mx-lg-none col-lg-4 py-5 py-lg-0">
+                            <div class="card chef_card">
+                                <img src="images/section6/div3/image.png" alt="chef" class="card-img-rop">
+                                <div class="card-body text-center chef_card_body">
+                                    <h3 class="card-title">Sarah Jhonson</h3>
+                                    <h5 class="card-subtitle text-secondary fs-6 py-3">Patissier</h5>
+                                    <p class="card-text pb-3">
+                                        Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima
+                                        suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.
+                                    </p>
+                                </div>
+                                <div class="social p-3">
+                                    <a href="#"><i class="bi bi-twitter-x fs-4"></i></a>
+                                    <a href="#"><i class="bi bi-facebook fs-4"></i></a>
+                                    <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+                                    <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-9 mx-auto mx-lg-none col-lg-4">
+                            <div class="card chef_card">
+                                <img src="images/section6/div2/image.png" alt="chef" class="card-img-rop">
+                                <div class="card-body text-center chef_card_body">
+                                    <h3 class="card-title">William Anderson</h3>
+                                    <h5 class="card-subtitle text-secondary fs-6 py-3">Cook</h5>
+                                    <p class="card-text pb-3">
+                                        Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt.
+                                        Voluptates enim aut architecto porro aspernatur molestiae modi
+                                    </p>
+                                </div>
+                                <div class="social p-3">
+                                    <a href="#"><i class="bi bi-twitter-x fs-4"></i></a>
+                                    <a href="#"><i class="bi bi-facebook fs-4"></i></a>
+                                    <a href="#"><i class="bi bi-instagram fs-4"></i></a>
+                                    <a href="#"><i class="bi bi-linkedin fs-4"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-8 py-4">
-                        <form method="POST" action="" class="d-flex flex-column gap-4 py-4">
-                            <div class="d-flex flex-column flex-md-row align-items-center gap-3">
-                                <!-- <div class="d-flex gap-3"> -->
-                                <input type="text" name="name" id="name" placeholder="Your Name" class="form-control">
-                                <input type="email" name="mail" id="mail" placeholder="Your Email" class="form-control">
-                                <!-- </div> -->
-                                <input type="tel" name="name" id="name" placeholder="Your Phone" class="form-control">
+                </div>
+            </div>
+        </section>
+        <section class="py-5" id="book">
+            <div class="container d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column align-items-center">
+                    <h5 class="text-secondary fs-5 text-uppercase">Book A Table</h5>
+                    <h1 class="about_title display-4 text-uppercase">
+                        Book Your <span class="text-danger">Stay With Us</span>
+                    </h1>
+                </div>
+
+                <div class="container">
+                    <div class="row book_bg">
+                        <div class="col-12 col-lg-4 p-0">
+                            <img src="images/section7/image.png" alt="decor" class="w-100">
+                        </div>
+                        <div class="col-12 col-lg-8 py-4">
+                            <form method="POST" action="" class="d-flex flex-column gap-4 py-4">
+                                <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+                                    <!-- <div class="d-flex gap-3"> -->
+                                    <input type="text" name="name" id="name" placeholder="Your Name"
+                                        class="form-control">
+                                    <input type="email" name="mail" id="mail" placeholder="Your Email"
+                                        class="form-control">
+                                    <!-- </div> -->
+                                    <input type="tel" name="name" id="name" placeholder="Your Phone"
+                                        class="form-control">
+                                </div>
+                                <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+                                    <input type="date" name="date" id="date" class="form-control">
+                                    <input type="time" name="mail" id="mail" class="form-control">
+                                    <input type="number" name="number" id="number" placeholder="# of people"
+                                        class="form-control">
+                                </div>
+                                <textarea name="message" id="mes" cols="95" rows="9" placeholder="Message"
+                                    class="form-control"></textarea>
+                                <input type="submit" value="Book a Table"
+                                    class="btn btn-danger d-block mx-auto py-3 px-5">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="py-5">
+            <div class="container d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column align-items-center pt-5">
+                    <h5 class="text-secondary fs-5 text-uppercase">Book A Table</h5>
+                    <h1 class="about_title display-4 text-uppercase">
+                        Book Your <span class="text-danger">Stay With Us</span>
+                    </h1>
+                </div>
+
+                <div id="carouselExampleInterval" class="carousel slide py-5" data-bs-ride="carousel">
+                    <div class="carousel-inner mb-3">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <div class="col d-block d-lg-none">
+                                <a href="images/section8/div1/image.png" target="_blank">
+                                    <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
+                                </a>
                             </div>
-                            <div class="d-flex flex-column flex-md-row align-items-center gap-3">
-                                <input type="date" name="date" id="date" class="form-control">
-                                <input type="time" name="mail" id="mail" class="form-control">
-                                <input type="number" name="number" id="number" placeholder="# of people"
-                                    class="form-control">
+                            <div class="row g-1 d-none d-lg-flex">
+                                <div class="col">
+                                    <a href="images/section8/div5/image.png" target="_blank">
+                                        <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div6/image.png" target="_blank">
+                                        <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div7/image.png" target="_blank">
+                                        <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col box">
+                                    <a href="images/section8/div1/image.png" target="_blank">
+                                        <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div2/image.png" target="_blank">
+                                        <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div3/image.png" target="_blank">
+                                        <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div4/image.png" target="_blank">
+                                        <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
                             </div>
-                            <textarea name="message" id="mes" cols="95" rows="9" placeholder="Message"
-                                class="form-control"></textarea>
-                            <input type="submit" value="Book a Table" class="btn btn-danger d-block mx-auto py-3 px-5">
+                        </div>
+
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col d-block d-lg-none">
+                                <a href="images/section8/div2/image.png" target="_blank">
+                                    <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
+                                </a>
+                            </div>
+                            <div class="row g-1 d-none d-lg-flex">
+                                <div class="col">
+                                    <a href="images/section8/div6/image.png" target="_blank">
+                                        <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div7/image.png" target="_blank">
+                                        <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div1/image.png" target="_blank">
+                                        <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col box">
+                                    <a href="images/section8/div2/image.png" target="_blank">
+                                        <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div3/image.png" target="_blank">
+                                        <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div4/image.png" target="_blank">
+                                        <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div5/image.png" target="_blank">
+                                        <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col d-block d-lg-none">
+                                <a href="images/section8/div3/image.png" target="_blank">
+                                    <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
+                                </a>
+                            </div>
+                            <div class="row g-1 d-none d-lg-flex">
+                                <div class="col">
+                                    <a href="images/section8/div7/image.png" target="_blank">
+                                        <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div1/image.png" target="_blank">
+                                        <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div2/image.png" target="_blank">
+                                        <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col box">
+                                    <a href="images/section8/div3/image.png" target="_blank">
+                                        <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div4/image.png" target="_blank">
+                                        <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div5/image.png" target="_blank">
+                                        <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div6/image.png" target="_blank">
+                                        <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col d-block d-lg-none">
+                                <a href="images/section8/div4/image.png" target="_blank">
+                                    <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
+                                </a>
+                            </div>
+                            <div class="row g-1 d-none d-lg-flex">
+                                <div class="col">
+                                    <a href="images/section8/div1/image.png" target="_blank">
+                                        <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div2/image.png" target="_blank">
+                                        <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div3/image.png" target="_blank">
+                                        <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col box">
+                                    <a href="images/section8/div4/image.png" target="_blank">
+                                        <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div5/image.png" target="_blank">
+                                        <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div6/image.png" target="_blank">
+                                        <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div7/image.png" target="_blank">
+                                        <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col d-block d-lg-none">
+                                <a href="images/section8/div5/image.png" target="_blank">
+                                    <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
+                                </a>
+                            </div>
+                            <div class="row g-1 d-none d-lg-flex">
+                                <div class="col">
+                                    <a href="images/section8/div2/image.png" target="_blank">
+                                        <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div3/image.png" target="_blank">
+                                        <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div4/image.png" target="_blank">
+                                        <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col box">
+                                    <a href="images/section8/div5/image.png" target="_blank">
+                                        <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div6/image.png" target="_blank">
+                                        <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div7/image.png" target="_blank">
+                                        <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div1/image.png" target="_blank">
+                                        <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item " data-bs-interval="2000">
+                            <div class="col d-block d-lg-none">
+                                <a href="images/section8/div6/image.png" target="_blank">
+                                    <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
+                                </a>
+                            </div>
+                            <div class="row g-1 d-none d-lg-flex">
+                                <div class="col">
+                                    <a href="images/section8/div3/image.png" target="_blank">
+                                        <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div4/image.png" target="_blank">
+                                        <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div5/image.png" target="_blank">
+                                        <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col box">
+                                    <a href="images/section8/div6/image.png" target="_blank">
+                                        <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div7/image.png" target="_blank">
+                                        <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div1/image.png" target="_blank">
+                                        <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div2/image.png" target="_blank">
+                                        <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="col d-block d-lg-none">
+                                <a href="images/section8/div7/image.png" target="_blank">
+                                    <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
+                                </a>
+                            </div>
+                            <div class="row g-1 d-none d-lg-flex">
+                                <div class="col">
+                                    <a href="images/section8/div4/image.png" target="_blank">
+                                        <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div5/image.png" target="_blank">
+                                        <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div6/image.png" target="_blank">
+                                        <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col box">
+                                    <a href="images/section8/div7/image.png" target="_blank">
+                                        <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div1/image.png" target="_blank">
+                                        <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div2/image.png" target="_blank">
+                                        <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="images/section8/div3/image.png" target="_blank">
+                                        <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2" class="bg-secondary"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3" class="bg-secondary"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4" class="bg-secondary"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5" class="bg-secondary"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 6" class="bg-secondary"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                            aria-label="Slide 7" class="bg-secondary"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="py-5">
+            <div class="container d-flex flex-column align-items-center gap-3">
+                <div class="d-flex flex-column align-items-center pt-5">
+                    <h5 class="text-secondary fs-5 text-uppercase">Contact</h5>
+                    <h1 class="about_title display-4 text-uppercase">
+                        Need Help? <span class="text-danger">Contact Us</span>
+                    </h1>
+                </div>
+
+                <div class="container d-flex flex-column gap-3">
+                    <div class="row">
+                        <div class="col">
+                            <iframe style="width: 100%; height: 400px;"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                                frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+
+                    <div class="row gy-4">
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex gap-3 p-3 align-items-center contact_base shadow text-secondary">
+                                <i class="icon bi bi-geo-alt contact_icon py-3 px-4 fs-5 rounded-5"></i>
+                                <div>
+                                    <h3>Address</h3>
+                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex gap-3 p-3 align-items-center contact_base shadow text-secondary">
+                                <i class="icon bi bi-telephone contact_icon py-3 px-4 fs-5 rounded-5"></i>
+                                <div>
+                                    <h3>Call Us</h3>
+                                    <p>+1 5589 55488 55</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex gap-3 p-3 align-items-center contact_base shadow text-secondary">
+                                <i class="icon bi bi-envelope contact_icon py-3 px-4 fs-5 rounded-5"></i>
+                                <div>
+                                    <h3>Email Us</h3>
+                                    <p>info@example.com</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
+                            <div class="d-flex gap-3 p-3 align-items-center contact_base shadow text-secondary">
+                                <i class="icon bi bi-clock contact_icon py-3 px-4 fs-5 rounded-5"></i>
+                                <div>
+                                    <h3>Opening Hours<br></h3>
+                                    <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row my-3 py-5 shadow">
+                        <form action="" method="POST" class="ps-4 pe-5">
+                            <div class="d-flex flex-column flex-md-row gap-3">
+                                <div class="col">
+                                    <input type="text" name="nom" id="nom" placeholder="Your Name" class="form-control">
+                                </div>
+                                <div class="col">
+                                    <input type="email" name="mail" id="mail" placeholder="Your Mail"
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <div class="col py-3">
+                                <input type="text" class="form-control" name="subject" placeholder="Subject">
+                            </div>
+
+                            <div class="col">
+                                <textarea name="message" id="mes" cols="95" rows="9" placeholder="Message"
+                                    class="form-control"></textarea>
+                            </div>
+                            <input type="submit" value="Send Message"
+                                class="btn btn-danger d-block mx-auto py-3 rounded-5 px-5">
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="gallery" class="py-5">
-        <div class="container d-flex flex-column align-items-center gap-3">
-            <div class="d-flex flex-column align-items-center pt-5">
-                <h5 class="text-secondary fs-5 text-uppercase">Book A Table</h5>
-                <h1 class="about_title display-4 text-uppercase">
-                    Book Your <span class="text-danger">Stay With Us</span>
-                </h1>
-            </div>
-
-            <div id="carouselExampleInterval" class="carousel slide py-5" data-bs-ride="carousel">
-                <div class="carousel-inner mb-3">
-                    <div class="carousel-item active" data-bs-interval="2000">
-                        <div class="col d-block d-lg-none">
-                            <a href="images/section8/div1/image.png" target="_blank">
-                                <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
-                            </a>
-                        </div>
-                        <div class="row g-1 d-none d-lg-flex">
-                            <div class="col">
-                                <a href="images/section8/div5/image.png" target="_blank">
-                                    <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div6/image.png" target="_blank">
-                                    <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div7/image.png" target="_blank">
-                                    <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col box">
-                                <a href="images/section8/div1/image.png" target="_blank">
-                                    <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div2/image.png" target="_blank">
-                                    <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div3/image.png" target="_blank">
-                                    <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div4/image.png" target="_blank">
-                                    <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item " data-bs-interval="2000">
-                        <div class="col d-block d-lg-none">
-                            <a href="images/section8/div2/image.png" target="_blank">
-                                <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
-                            </a>
-                        </div>
-                        <div class="row g-1 d-none d-lg-flex">
-                            <div class="col">
-                                <a href="images/section8/div6/image.png" target="_blank">
-                                    <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div7/image.png" target="_blank">
-                                    <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div1/image.png" target="_blank">
-                                    <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col box">
-                                <a href="images/section8/div2/image.png" target="_blank">
-                                    <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div3/image.png" target="_blank">
-                                    <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div4/image.png" target="_blank">
-                                    <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div5/image.png" target="_blank">
-                                    <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item " data-bs-interval="2000">
-                        <div class="col d-block d-lg-none">
-                            <a href="images/section8/div3/image.png" target="_blank">
-                                <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
-                            </a>
-                        </div>
-                        <div class="row g-1 d-none d-lg-flex">
-                            <div class="col">
-                                <a href="images/section8/div7/image.png" target="_blank">
-                                    <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div1/image.png" target="_blank">
-                                    <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div2/image.png" target="_blank">
-                                    <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col box">
-                                <a href="images/section8/div3/image.png" target="_blank">
-                                    <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div4/image.png" target="_blank">
-                                    <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div5/image.png" target="_blank">
-                                    <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div6/image.png" target="_blank">
-                                    <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item " data-bs-interval="2000">
-                        <div class="col d-block d-lg-none">
-                            <a href="images/section8/div4/image.png" target="_blank">
-                                <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
-                            </a>
-                        </div>
-                        <div class="row g-1 d-none d-lg-flex">
-                            <div class="col">
-                                <a href="images/section8/div1/image.png" target="_blank">
-                                    <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div2/image.png" target="_blank">
-                                    <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div3/image.png" target="_blank">
-                                    <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col box">
-                                <a href="images/section8/div4/image.png" target="_blank">
-                                    <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div5/image.png" target="_blank">
-                                    <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div6/image.png" target="_blank">
-                                    <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div7/image.png" target="_blank">
-                                    <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item " data-bs-interval="2000">
-                        <div class="col d-block d-lg-none">
-                            <a href="images/section8/div5/image.png" target="_blank">
-                                <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
-                            </a>
-                        </div>
-                        <div class="row g-1 d-none d-lg-flex">
-                            <div class="col">
-                                <a href="images/section8/div2/image.png" target="_blank">
-                                    <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div3/image.png" target="_blank">
-                                    <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div4/image.png" target="_blank">
-                                    <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col box">
-                                <a href="images/section8/div5/image.png" target="_blank">
-                                    <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div6/image.png" target="_blank">
-                                    <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div7/image.png" target="_blank">
-                                    <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div1/image.png" target="_blank">
-                                    <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item " data-bs-interval="2000">
-                        <div class="col d-block d-lg-none">
-                            <a href="images/section8/div6/image.png" target="_blank">
-                                <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
-                            </a>
-                        </div>
-                        <div class="row g-1 d-none d-lg-flex">
-                            <div class="col">
-                                <a href="images/section8/div3/image.png" target="_blank">
-                                    <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div4/image.png" target="_blank">
-                                    <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div5/image.png" target="_blank">
-                                    <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col box">
-                                <a href="images/section8/div6/image.png" target="_blank">
-                                    <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div7/image.png" target="_blank">
-                                    <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div1/image.png" target="_blank">
-                                    <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div2/image.png" target="_blank">
-                                    <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item ">
-                        <div class="col d-block d-lg-none">
-                            <a href="images/section8/div7/image.png" target="_blank">
-                                <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
-                            </a>
-                        </div>
-                        <div class="row g-1 d-none d-lg-flex">
-                            <div class="col">
-                                <a href="images/section8/div4/image.png" target="_blank">
-                                    <img src="images/section8/div4/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div5/image.png" target="_blank">
-                                    <img src="images/section8/div5/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div6/image.png" target="_blank">
-                                    <img src="images/section8/div6/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col box">
-                                <a href="images/section8/div7/image.png" target="_blank">
-                                    <img src="images/section8/div7/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div1/image.png" target="_blank">
-                                    <img src="images/section8/div1/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div2/image.png" target="_blank">
-                                    <img src="images/section8/div2/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="images/section8/div3/image.png" target="_blank">
-                                    <img src="images/section8/div3/image.png" class="img-fluid" alt="...">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2" class="bg-secondary"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3" class="bg-secondary"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 4" class="bg-secondary"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                        aria-label="Slide 5" class="bg-secondary"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                        aria-label="Slide 6" class="bg-secondary"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-                        aria-label="Slide 7" class="bg-secondary"></button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="py-5">
-        <div class="container d-flex flex-column align-items-center gap-3">
-            <div class="d-flex flex-column align-items-center pt-5">
-                <h5 class="text-secondary fs-5 text-uppercase">Contact</h5>
-                <h1 class="about_title display-4 text-uppercase">
-                    Need Help? <span class="text-danger">Contact Us</span>
-                </h1>
-            </div>
-
-            <div class="container d-flex flex-column gap-3">
-                <div class="row">
-                    <div class="col">
-                        <iframe style="width: 100%; height: 400px;"
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                            frameborder="0" allowfullscreen=""></iframe>
-                    </div>
-                </div>
-
-                <div class="row gy-4">
-                    <div class="col-12 col-lg-6">
-                        <div class="d-flex gap-3 p-3 align-items-center contact_base shadow text-secondary">
-                            <i class="icon bi bi-geo-alt contact_icon py-3 px-4 fs-5 rounded-5"></i>
-                            <div>
-                                <h3>Address</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-6">
-                        <div class="d-flex gap-3 p-3 align-items-center contact_base shadow text-secondary">
-                            <i class="icon bi bi-telephone contact_icon py-3 px-4 fs-5 rounded-5"></i>
-                            <div>
-                                <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-6">
-                        <div class="d-flex gap-3 p-3 align-items-center contact_base shadow text-secondary">
-                            <i class="icon bi bi-envelope contact_icon py-3 px-4 fs-5 rounded-5"></i>
-                            <div>
-                                <h3>Email Us</h3>
-                                <p>info@example.com</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-6">
-                        <div class="d-flex gap-3 p-3 align-items-center contact_base shadow text-secondary">
-                            <i class="icon bi bi-clock contact_icon py-3 px-4 fs-5 rounded-5"></i>
-                            <div>
-                                <h3>Opening Hours<br></h3>
-                                <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row my-3 py-5 shadow">
-                    <form action="" method="POST" class="ps-4 pe-5">
-                        <div class="d-flex flex-column flex-md-row gap-3">
-                            <div class="col">
-                                <input type="text" name="nom" id="nom" placeholder="Your Name" class="form-control">
-                            </div>
-                            <div class="col">
-                                <input type="email" name="mail" id="mail" placeholder="Your Mail" class="form-control">
-                            </div>
-                        </div>
-                        <div class="col py-3">
-                            <input type="text" class="form-control" name="subject" placeholder="Subject">
-                        </div>
-
-                        <div class="col">
-                            <textarea name="message" id="mes" cols="95" rows="9" placeholder="Message"
-                                class="form-control"></textarea>
-                        </div>
-                        <input type="submit" value="Send Message"
-                            class="btn btn-danger d-block mx-auto py-3 rounded-5 px-5">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer id="footer" class="footer bg-dark text-light py-5">
         <div class="container">
@@ -1364,10 +1392,12 @@
         </div>
 
         <div class="container copyright px-3 mt-4 text-center">
-            <p>&copy; <span>Copyright</span> <strong class="px-1 sitename">Yummy</strong> <span>All Rights Reserved</span>
+            <p>&copy; <span>Copyright</span> <strong class="px-1 sitename">Yummy</strong> <span>All Rights
+                    Reserved</span>
             </p>
             <div class="">
-                Designed by <a href="https://bootstrapmade.com/" class="text-decoration-none text-danger fs-6">BootstrapMade</a>
+                Designed by <a href="https://bootstrapmade.com/"
+                    class="text-decoration-none text-danger fs-6">BootstrapMade</a>
             </div>
         </div>
 
