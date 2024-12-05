@@ -8,6 +8,28 @@
     /* margin: 0 auto; */
 }
 
+nav ul .nav-item  {
+    position: relative;
+}
+
+nav ul .nav-item::after {
+    content: '';
+    position: absolute;
+    background-color: #ce1212;
+    width: 0%;
+    float: left;
+    height: 3px;
+    transition:  width 200ms ease;
+}
+
+nav ul .nav-item.active::after {
+    width: 100%;
+}
+
+nav ul .nav-item:hover::after {
+    width: 100%;
+}
+
 #about_card_bg {
     background-color: #ce1212;
 }
@@ -63,6 +85,26 @@
 
 .card_bg5 {
     background-image: url('../images/section5/div5/image.png');
+}
+
+.tracer_red,
+.list_menu:hover .tracer_red2,
+.list_menu:hover .tracer_red3,
+.list_menu:hover .tracer_red4 {
+    display: block;
+    width: 100%;
+    background-color: #ce1212;
+    height: 2px;
+}
+
+.tracer_red2,
+.tracer_red3,
+.tracer_red4 {
+    display: block;
+    transition: background-color 200ms ease;
+    width: 100%;
+    background-color: rgba(160, 155, 155, 0.5);
+    height: 3px;
 }
 
 .chef_card {

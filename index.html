@@ -15,7 +15,7 @@
     <header class="fixed-top" id="header_bg">
         <nav class="navbar navbar-expand-lg px-2 px-lg-5">
             <div class="navbar-brand">
-                <h1 id="titre_nav" class="menu_font_modif">Yummy <span>.</span></h1>
+                <h1 id="titre_nav" class="menu_font_modif">Yummy <span class="text-danger">.</span></h1>
             </div>
             <div class="d-flex align-items-center gap-3">
                 <a class="btn btn-danger text-light rounded-5 d-block d-lg-none" href="#book" id="btnbook">Book a
@@ -30,7 +30,7 @@
 
             <div class="collapse navbar-collapse " id="menunav">
                 <ul class="navbar-nav mx-3 mx-lg-auto" id="navi">
-                    <li class="nav-item"><a href="#home" class="nav-link active">Home<br></a></li>
+                    <li class="nav-item active"><a href="#home" class="nav-link active">Home<br></a></li>
                     <li class="nav-item"><a href="#about" class="nav-link ">About</a></li>
                     <li class="nav-item"><a href="#menu" class="nav-link ">Menu</a></li>
                     <li class="nav-item"><a href="#events" class="nav-link ">Events</a></li>
@@ -267,17 +267,21 @@
             </div>
 
             <ul class="navbar-nav flex-row gap-3 align-items-center justify-content-center" id="menu_ul">
-                <li class="nav-item">
+                <li class="nav-item d-flex flex-column align-items-center list_menu">
                     <a href="#" class="nav-link">Starters</a>
+                    <span class="tracer_red tracer_red1"></span>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-flex flex-column align-items-center list_menu">
                     <a href="#" class="nav-link">Breakfast</a>
+                    <span class="tracer_red tracer_red2"></span>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-flex flex-column align-items-center list_menu">
                     <a href="#" class="nav-link">Lunch</a>
+                    <span class="tracer_red tracer_red3"></span>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-flex flex-column align-items-center list_menu">
                     <a href="#" class="nav-link">Dinner</a>
+                    <span class="tracer_red tracer_red4"></span>
                 </li>
             </ul>
 
